@@ -4,7 +4,6 @@ import PaperMDC from "./components/PaperMDC";
 import CharCard from "./components/CharCard";
 import Score from "./components/Score";
 import Alert from "./components/Alert";
-import navBar from "./components/navBar";
 import BottomNavMDC from "./components/BottomNavMDC";
 import characters from "./characters.json";
 
@@ -72,7 +71,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <navBar style={{ background: "#313133", marginBottom: "5px" }} />
+        {/* <navBar style={{ background: "#313133", marginBottom: "5px" }} /> */}
 
         <GridMDC container direction="column" style={{ margin: "0 auto", maxWidth: 945 }}>
 
@@ -118,7 +117,7 @@ class App extends Component {
           ))}
         </GridMDC>
         <BottomNavMDC style={{ background: "#313133", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
-          <a href="https://github.com/philiptd5000/clicky-game-REACT" target="_blank" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
+          <a href="https://github.com/alvaroluna/clicky-game" target="_blank" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
         </BottomNavMDC>
 
       </div>
