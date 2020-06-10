@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Apu",
+        "image": "../images/apu.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bart",
+        "image": "../images/bart.png"
+    },
+    {
+        "id": 3,
+        "name": "Bumble Bee Man",
+        "image": "../images/bumbleBeeMan.gif"
+    },
+    {
+        "id": 4,
+        "name": "Krabappel",
+        "image": "../images/krabappel.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Hibbert",
+        "image": "../images/drHibbert.png"
+    },
+    {
+        "id": 6,
+        "name": "Fat Tony",
+        "image": "../images/fatTony.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Homer",
+        "image": "../images/homer.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Lisa",
+        "image": "../images/lisa.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Maggie",
+        "image": "../images/maggie.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Marge",
+        "image": "../images/marge.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mr. Burns",
+        "image": "../images/mrBurns.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Ralph",
+        "image": "../images/ralph.jpg"
+    }
+]
