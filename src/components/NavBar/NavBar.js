@@ -1,19 +1,19 @@
-import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import React from './node_modules/react';
+import AppBar from './node_modules/@material-ui/core/AppBar';
+import Toolbar from './node_modules/@material-ui/core/Toolbar';
+import Typography from './node_modules/@material-ui/core/Typography';
 
-const NavBar = props => {
-    return(
+const navBar = props => {
+    return (
         <div>
-        <AppBar position="static" {...props}>
-            <Toolbar>
-                <Typography variant="headline" color="inherit" align="center">
-                Clicky Game
+            <AppBar position="static" {...props}>
+                <Toolbar>
+                    <Typography variant="headline" color="inherit" align="center">
+                        Simpsons Clicky Game
                 </Typography>
-            </Toolbar>
-        </AppBar>
+                </Toolbar>
+            </AppBar>
         </div>
     )
 }
-export default NavBar;
+export default navBar;

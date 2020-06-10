@@ -4,7 +4,7 @@ import PaperMDC from "./components/PaperMDC";
 import CharCard from "./components/CharCard";
 import Score from "./components/Score";
 import Alert from "./components/Alert";
-import NavBar from "./components/NavBar";
+import navBar from "./components/navBar";
 import BottomNavMDC from "./components/BottomNavMDC";
 import characters from "./characters.json";
 
@@ -72,7 +72,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar style={{ background: "#313133", marginBottom: "5px" }} />
+        <navBar style={{ background: "#313133", marginBottom: "5px" }} />
 
         <GridMDC container direction="column" style={{ margin: "0 auto", maxWidth: 945 }}>
 
@@ -107,13 +107,13 @@ class App extends Component {
         <GridMDC container spacing={24} justify="center" style={{ maxWidth: 945, margin: "0 auto" }}>
           {this.state.characters.map(char => (
             <GridMDC item lg={3} md={3} sm={4} xs={6}>
-            <CharCard
-              id={char.id}
-              name={char.name}
-              image={char.image}
-              key={char.id}
-              handlePicked={this.handlePicked}
-            />
+              <CharCard
+                id={char.id}
+                name={char.name}
+                image={char.image}
+                key={char.id}
+                handlePicked={this.handlePicked}
+              />
             </GridMDC>
           ))}
         </GridMDC>
